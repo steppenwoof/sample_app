@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>ROR Tutorial Sample App | <%= @title %>
+			</title>
+		</head>
+		<%= csrf_meta_tag %>
+		<body>
+		<%= yield %>
+	</body>
+	</html>
